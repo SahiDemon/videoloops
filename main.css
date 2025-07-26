@@ -434,11 +434,7 @@ div[data-role=page].page#searchPage {
 }
 
 .defaultCardBackground {
-    /* The image (top layer) is blended with the gradient (bottom layer) */
-    background:
-        url('https://i.ibb.co/HT7trQdS/image.jpg') center/cover,
-        linear-gradient(130deg, var(--accent1-dark), var(--accent2-dark)) !important;
-    background-blend-mode: overlay; /* This blends the two layers together */
+    background: linear-gradient(130deg, var(--accent1-dark), var(--accent2-dark)) !important
 }
 
 .chapterCard .innerCardFooter {
